@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
-<body lang="en-US" style="background-color:tan;" class="center">
+<body lang="en-US" style="background-color:DarkGray;" class="center">
 
 	<h1 style="font-family:verdana;"><center>Audrey Ostenson</center></h2>
-	<img src="http://www.warrenphotographic.co.uk/photography/bigs/42973-Silver-tabby-fluffy-cat-standing-with-tail-erect-white-background.jpg" width="250" height="300">
+	<img onmouseover = "larger(this)" onmouseout = "smaller(this)" src="http://www.warrenphotographic.co.uk/photography/bigs/42973-Silver-tabby-fluffy-cat-standing-with-tail-erect-white-background.jpg" width="250" height="300">
 	
+<script>
+function larger(x) {
+    x.style.height = "400px";
+    x.style.width = "320px";
+}
+
+function smaller(x) {
+    x.style.height = "300px";
+    x.style.width = "250px";
+}
+</script>
+		
 	
 	
 <p id = "about">About</p>
@@ -18,11 +30,11 @@
 			
 	
 	
-<h2 style="color:brown;">Projects</h2>
+<h2 style="color:DarkCyan;">Projects</h2>
   <img src="https://bloximages.chicago2.vip.townnews.com/idahostatejournal.com/content/tncms/assets/v3/editorial/8/5a/85aea6c1-22da-523d-a2bd-31491e3fc090/58db36ac768d2.image.jpg?resize=1200%2C675" width="400" height="227">
   <p>My most recent project was a platformer that my partner Olachi and I collaborated to create. In it, you play as an adventurer searching through a forest for Bigfoot.<br>It was a challenge to develop because of the physics we had to figure out how to program into the game.</p>
 <p>I am excited to work on more games in the future.</p>
-<h2 style="color:brown;">Links</h2>
+<h2 style="color:DarkCyan;">Links</h2>
   <a href="http://cattime.com/cat-facts/lifestyle/1650-25-funny-cat-memes#/slide/1">Some cat memes.</a><br>
   <a href="http://www.youtube.com">The site I use most frequently.</a><br>
   <a href="http://www.wikipedia.org">Another site I spend a lot of time with.</a>
@@ -30,12 +42,13 @@
 .center {
     margin: auto;
     width: 60%;
-    border: 3px solid #73AD21;
+    border: 3px solid #00FFFF;
     padding: 10px;
 }	  
 	  
 h1{
 color: aqua;
+
 }
 a {
 	color: aqua;
@@ -53,6 +66,10 @@ p {
     padding-bottom: 10px;
     padding-left: 10px;
 }
+.bg{
+	background-image: url("http://www.browardcustomwoodwork.com/draft/images/wood_species/hard_maple001_lrg.jpg");
+	  }
+
   <style>
 </body>
 </html>
