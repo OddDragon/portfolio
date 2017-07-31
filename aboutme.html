@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
-<body lang="en-US" style="background-color:tan;">
+<body lang="en-US" style="background-color:tan;" class="center">
 
 	<h1 style="font-family:verdana;"><center>Audrey Ostenson</center></h2>
-	<img src="http://www.warrenphotographic.co.uk/photography/bigs/42973-Silver-tabby-fluffy-cat-standing-with-tail-erect-white-background.jpg" width = "250" height="300">
-<h2 style="color:brown;">About</h2>
-  <p>I am a student at the Girls Who Code Intensive Program 2017. In the past I have attended Olympic View Elementary, Lincoln Elementary, Hamilton Middle School, and Jane Addams Middle School. I am going into my junior year at Garfield High School this fall.</p>
-  <p>I love cats, drawing, and reading. I have limited experience coding because my previous attempts to learn were foiled by a Sharpie-wielding maniac.</p>
-  <p>I very recently got the materials to start creating digital art, which is very exciting for me. I hope to start applying this to my work this summer and make my original art a part of my upcoming projects.</p> 
+	< img src="http://www.warrenphotographic.co.uk/photography/bigs/42973-Silver-tabby-fluffy-cat-standing-with-tail-erect-white-background.jpg" width = "250" height="300">
+	
+	
+	
+<h2 id = "about" style="color:brown;">About</h2>
+  
+	<button type="button" onclick="info()"> See a brief description of my wonderful self, which is hidden to those without clicking abilities!</button>
+	<script>
+		function info() {
+			 document.getElementById("about").innerHTML = "I am a student at the Girls Who Code Intensive Program 2017. In the past I have attended Olympic View Elementary, Lincoln Elementary, Hamilton Middle School, and Jane Addams Middle School. I am going into my junior year at Garfield High School this fall. I love cats, drawing, and reading. I have limited experience coding because my previous attempts to learn were foiled by a Sharpie-wielding maniac. I very recently got the materials to start creating digital art, which is very exciting for me. I hope to start applying this to my work this summer and make my original art a part of my upcoming projects.";
+	}
+	</script>
+			
+	
+	
 <h2 style="color:brown;">Projects</h2>
   <img src="https://bloximages.chicago2.vip.townnews.com/idahostatejournal.com/content/tncms/assets/v3/editorial/8/5a/85aea6c1-22da-523d-a2bd-31491e3fc090/58db36ac768d2.image.jpg?resize=1200%2C675" width="400" height="227">
   <p>My most recent project was a platformer that my partner Olachi and I collaborated to create. In it, you play as an adventurer searching through a forest for Bigfoot.<br>It was a challenge to develop because of the physics we had to figure out how to program into the game.</p>
@@ -17,11 +27,18 @@
   <a href="http://www.youtube.com">The site I use most frequently.</a><br>
   <a href="http://www.wikipedia.org">Another site I spend a lot of time with.</a>
   <style>
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}	  
+	  
 h1{
-color: powderblue;
+color: tiel;
 }
 a {
-	color: powderblue;
+	color: tiel;
 }
   h2{
     font-family: verdana;
